@@ -1,6 +1,6 @@
 class pilha:
     def __init__ (self):
-        seft.items = []
+        self.items = []
     def empilhar (self, item):
         self.items = self.items + [item]
     def desempilhar (self):
